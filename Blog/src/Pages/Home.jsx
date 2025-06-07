@@ -11,7 +11,7 @@ const Home = () => {
     
     useEffect( ()=>{
         async function fetchData () {
-        await fetch("http://localhost:5000/get-all-blogs")
+        await fetch("https://kendrixblogs.onrender.com/get-all-blogs")
         .then(res=> res.json())
         .then(data => setData(data))
         .catch(err=> console.log(err))
