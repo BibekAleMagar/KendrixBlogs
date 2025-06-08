@@ -52,7 +52,7 @@ const Home = () => {
                     <p className=''>Author: {post.author}</p>
                 </div>
                 <img 
-            src={`http://localhost:5000/images/${post.imgURL}`} 
+            src={`https://kendrixblogs.onrender.com/images/${post.imgURL}`} 
             alt={post.title} 
             className='min-h-1/2'                
                 />
